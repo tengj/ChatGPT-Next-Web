@@ -118,10 +118,17 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT Next
+          嘟先生的AI智能聊天工具
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          用AI提高你的效率{" "}
+          <a
+            className={styles["sidebar-a"]}
+            href="https://www.yuque.com/dudumd/gg3hgz/fenkh9cn8c6vneng?singleDoc#"
+            target="_blank"
+          >
+            使用教程
+          </a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -173,11 +180,11 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
-          <div className={styles["sidebar-action"]}>
+          {/* <div className={styles["sidebar-action"]}>
             <a href={REPO_URL} target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
-          </div>
+          </div> */}
         </div>
         <div>
           <IconButton
