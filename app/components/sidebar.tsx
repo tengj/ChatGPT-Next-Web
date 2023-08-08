@@ -121,7 +121,7 @@ export function SideBar(props: { className?: string }) {
           嘟先生的AI智能聊天工具
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          用AI提高你的效率
+          用AI提高你的效率吧
           <a
             className={styles["sidebar-a"]}
             href="https://www.yuque.com/dudumd/gg3hgz/fenkh9cn8c6vneng?singleDoc#"
